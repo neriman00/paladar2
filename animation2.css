@@ -1,0 +1,45 @@
+.h1 {
+    text-align: center;
+}
+.h1 h2{
+    color: #ff7200;
+    border-bottom:1px solid  black;
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.icons{
+    background: rgb(241, 241, 241);
+}
+.item{
+    margin-bottom:20px; 
+}
+.item i{
+    color: #ff7200;
+}
+.icons2{
+    background: #ff7200;
+    padding: 20px;
+    text-align: center;
+}
+.item i:nth-child(6){
+    color: gray;
+}
+.item .icons2{
+    padding-top: 15px;
+} 
+.item .icons2 i{
+    position: relative;
+    color: black;  
+}
+.icons2:hover i{
+    animation: anima .5s linear infinite;
+}
+@keyframes anima {
+    0%{
+        left: 0px; 
+    }
+    100%{
+        left: 20px;
+    }
+}
